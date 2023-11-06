@@ -271,16 +271,13 @@ figure {
   margin: 0 0 1rem;
 }
 
-
-svg {
+img
+ {
   vertical-align: middle;
+  border-radius: 100%;
 }
 
-img {
-    vertical-align: middle;  
-   border-radius: 100%;
-}
-
+svg{vertical-align: middle;}
 table {
   caption-side: bottom;
   border-collapse: collapse;
@@ -3977,7 +3974,7 @@ textarea.form-control-lg {
 .navbar-toggler:focus {
   text-decoration: none;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem;
+
 }
 
 .navbar-toggler-icon {
@@ -11218,3 +11215,9 @@ textarea.form-control-lg {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+.nav-link .active a
+{
+  font-size: 50px;
+}
