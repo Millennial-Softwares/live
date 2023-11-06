@@ -271,9 +271,13 @@ figure {
   margin: 0 0 1rem;
 }
 
-img,
+
 svg {
   vertical-align: middle;
+}
+img{
+    vertical-align: middle;  
+   border-radius: 100%;
 }
 
 table {
